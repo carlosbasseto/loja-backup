@@ -164,20 +164,5 @@ a:hover{
    animation: scaleWithShadow 1s ease-in-out infinite alternate;
 }
 
-@keyframes scaleWithShadow {
-  0% {
-    transform: scale(1);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
-  100% {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-  }
-}
 
-@media (max-width: 767px) {
-  .groot {
-    width: 100%; /* Ajusta a largura para 100% do contêiner pai */
-    height: auto; /* Mantém a proporção da imagem */
-  }
-}
+
